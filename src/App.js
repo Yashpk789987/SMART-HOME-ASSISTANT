@@ -1,8 +1,44 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import First from './components/First';
 
+import NavigationDrawer from './components/NavigationDrawer';
+import Login from './components/Login';
+import { serverUrl } from './serverUrl';
+
+class App extends Component {
+  state = {
+    logged_in: false
+  };
+
+  changeParentState = logged_in => {
+    this.setState({ logged_in: logged_in });
+    window.location.reload();
+  };
+
+  componentDidMount() {
+    if (localStorage.getItem('house') !== null) {
+      this.setState({ logged_in: true });
+    }
+    fetch(`${serverUrl}/make_dyno_onn`)
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .catch(err => console.log(err));
+  }
+
+  render() {
+    if (this.state.logged_in === true) {
+      return <NavigationDrawer changeParentState={this.changeParentState} />;
+    } else {
+      return <Login changeParentState={this.changeParentState} />;
+    }
+  }
+}
+
+export default App;
+
+///////////////////////// DEMO REACT COMPONENT ///////////////////////////
+
+// import logo from './logo.svg';
+// import './App.css';
 // class App extends Component {
 //   render() {
 //     return (
@@ -26,16 +62,4 @@ import First from './components/First';
 //   }
 // }
 
-
-class App extends Component {
-  render() {
-    return (
-      <div >
-        <First/>
-      </div>
-    );
-  }
-}
-
-
-export default App;
+///////////////////////   DEMO REACT COMPONENT //////////////////

@@ -15,11 +15,9 @@ export default class ________ extends React.Component {
     componentDidMount(){
         recognition.start()
         recognition.onresult = (e) => {
-            console.log(e.results[0][0].transcript)
             this.setState({ text : e.results[0][0].transcript })
         }
         recognition.onerror = (e) => {
-            console.log(e)
             this.setState({ text : e.error})
         }
     }
