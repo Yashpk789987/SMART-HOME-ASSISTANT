@@ -101,7 +101,7 @@ export default class Device extends React.Component {
             } else {
               if (response.result.parameters.onn_off === 'on') {
                 if (this.state.device_state === 1) {
-                  speaker.text = 'It Is Already Onn';
+                  speaker.text = 'It Is Already On';
                   window.speechSynthesis.speak(speaker);
                 } else {
                   rootRef
@@ -119,7 +119,7 @@ export default class Device extends React.Component {
                     .catch(err => console.log(err));
                   speaker.text =
                     response.result.parameters.electrical_appliance +
-                    ' Is Switched Onn ..';
+                    ' Is Switched On';
                   window.speechSynthesis.speak(speaker);
                 }
               } else {
