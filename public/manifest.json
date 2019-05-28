@@ -3,7 +3,7 @@
   "name": "Smart Home Assistant",
   "icons": [
     {
-      "src": "icon1.png",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0FOp5YAkqdMvGNtJGjlek5dLtc-cBY-9-_VfoDCxXaiQWPeFDPA",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     }
