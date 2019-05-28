@@ -18,6 +18,7 @@ class App extends Component {
     if (localStorage.getItem('house') !== null) {
       this.setState({ logged_in: true });
     }
+
     fetch(`${serverUrl}/make_dyno_onn`)
       .then(res => res.json())
       .then(data => console.log(data))

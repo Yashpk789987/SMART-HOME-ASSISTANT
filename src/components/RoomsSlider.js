@@ -84,7 +84,7 @@ class RoomsViewPager extends React.Component {
                     className='card-img-top'
                     style={{
                       width: '100%',
-                      height: '100%',
+                      height: 200,
                       borderRadius: '3%'
                     }}
                   />

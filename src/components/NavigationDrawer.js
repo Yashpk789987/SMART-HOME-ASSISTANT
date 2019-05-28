@@ -2,6 +2,7 @@ import React from 'react';
 import RoomsSlider from './RoomsSlider';
 
 import { Link, Route, Switch, HashRouter as Router } from 'react-router-dom';
+import { serverUrl } from '../serverUrl';
 export default class NavigationDrawer extends React.Component {
   checkIsLogin = () => {
     let house = localStorage.getItem('house');
