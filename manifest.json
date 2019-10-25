@@ -1,0 +1,15 @@
+{
+  "short_name": "Smart Home",
+  "name": "Smart Home Assistant",
+  "icons": [
+    {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0FOp5YAkqdMvGNtJGjlek5dLtc-cBY-9-_VfoDCxXaiQWPeFDPA",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000080",
+  "background_color": "#000080"
+}
