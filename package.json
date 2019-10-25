@@ -31,7 +31,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "http://yashpk789987.github.io/iot",
+  "homepage": "http://yashpk789987.github.io/SMART_HOME_ASSISTANT_PWA",
   "browserslist": [
     ">0.2%",
     "not dead",
