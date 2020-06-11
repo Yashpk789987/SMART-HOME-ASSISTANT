@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SMART_HOME_ASSISTANT_PWA/precache-manifest.8526d48a59749aed3127ad4064317c00.js"
+  "/SMART_HOME_ASSISTANT_PWA/precache-manifest.5726df695ed4655f8a503ec2065fa421.js"
 );
 
 workbox.clientsClaim();
