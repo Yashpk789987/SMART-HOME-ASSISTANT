@@ -1,13 +1,13 @@
 {
-  "main.css": "/SMART_HOME_ASSISTANT_PWA/static/css/main.1baecccf.chunk.css",
-  "main.js": "/SMART_HOME_ASSISTANT_PWA/static/js/main.8a9192b5.chunk.js",
-  "main.js.map": "/SMART_HOME_ASSISTANT_PWA/static/js/main.8a9192b5.chunk.js.map",
-  "static/js/1.9f00321f.chunk.js": "/SMART_HOME_ASSISTANT_PWA/static/js/1.9f00321f.chunk.js",
-  "static/js/1.9f00321f.chunk.js.map": "/SMART_HOME_ASSISTANT_PWA/static/js/1.9f00321f.chunk.js.map",
-  "runtime~main.js": "/SMART_HOME_ASSISTANT_PWA/static/js/runtime~main.49feb0d5.js",
-  "runtime~main.js.map": "/SMART_HOME_ASSISTANT_PWA/static/js/runtime~main.49feb0d5.js.map",
-  "static/css/main.1baecccf.chunk.css.map": "/SMART_HOME_ASSISTANT_PWA/static/css/main.1baecccf.chunk.css.map",
-  "index.html": "/SMART_HOME_ASSISTANT_PWA/index.html",
-  "precache-manifest.5726df695ed4655f8a503ec2065fa421.js": "/SMART_HOME_ASSISTANT_PWA/precache-manifest.5726df695ed4655f8a503ec2065fa421.js",
-  "service-worker.js": "/SMART_HOME_ASSISTANT_PWA/service-worker.js"
+  "main.css": "/SMART-HOME-ASSISTANT/static/css/main.1baecccf.chunk.css",
+  "main.js": "/SMART-HOME-ASSISTANT/static/js/main.dd6986f7.chunk.js",
+  "main.js.map": "/SMART-HOME-ASSISTANT/static/js/main.dd6986f7.chunk.js.map",
+  "static/js/1.e8e2c078.chunk.js": "/SMART-HOME-ASSISTANT/static/js/1.e8e2c078.chunk.js",
+  "static/js/1.e8e2c078.chunk.js.map": "/SMART-HOME-ASSISTANT/static/js/1.e8e2c078.chunk.js.map",
+  "runtime~main.js": "/SMART-HOME-ASSISTANT/static/js/runtime~main.e3132f8c.js",
+  "runtime~main.js.map": "/SMART-HOME-ASSISTANT/static/js/runtime~main.e3132f8c.js.map",
+  "static/css/main.1baecccf.chunk.css.map": "/SMART-HOME-ASSISTANT/static/css/main.1baecccf.chunk.css.map",
+  "index.html": "/SMART-HOME-ASSISTANT/index.html",
+  "precache-manifest.091717399c8cd95fdaaadf9f685a0352.js": "/SMART-HOME-ASSISTANT/precache-manifest.091717399c8cd95fdaaadf9f685a0352.js",
+  "service-worker.js": "/SMART-HOME-ASSISTANT/service-worker.js"
 }

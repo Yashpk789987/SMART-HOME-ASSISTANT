@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SMART_HOME_ASSISTANT_PWA/precache-manifest.5726df695ed4655f8a503ec2065fa421.js"
+  "/SMART-HOME-ASSISTANT/precache-manifest.091717399c8cd95fdaaadf9f685a0352.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/SMART_HOME_ASSISTANT_PWA/index.html", {
+workbox.routing.registerNavigationRoute("/SMART-HOME-ASSISTANT/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
